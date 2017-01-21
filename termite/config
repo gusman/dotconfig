@@ -32,9 +32,9 @@ filter_unmatched_urls = true
 #modify_other_keys = false
 
 [colors]
-foreground      = #839496
-foreground_bold = #eee8d5
-cursor          = #93a1a1
+foreground      = #657b83
+foreground_bold = #93a1a1
+cursor          = #fdf6e3
 background		= #002b36
 
 color0 = #073642
