@@ -1,0 +1,29 @@
+" VIFM COLORS
+" solarized dark
+
+" THIS COLORSCHEME SHALL USE SOLARIZED COLOR PALETTE
+
+highlight clear
+
+highlight Win             cterm=none ctermfg=default    ctermbg=none
+
+highlight TopLine         cterm=none ctermfg=106	    ctermbg=0
+highlight TopLineSel      cterm=none ctermfg=123	    ctermbg=0
+highlight StatusLine      cterm=none ctermfg=230    	ctermbg=0
+highlight Border          cterm=none ctermfg=8          ctermbg=0
+
+highlight Selected        cterm=bold ctermfg=214	    ctermbg=default
+highlight CurrLine        cterm=bold ctermfg=default    ctermbg=0
+
+highlight WildMenu        cterm=underline,reverse 	    ctermfg=230	ctermbg=23
+highlight CmdLine         cterm=none 			        ctermfg=230	ctermbg=23
+highlight ErrorMsg        cterm=bold                    ctermfg=166	ctermbg=23
+
+highlight Directory       cterm=none ctermfg=33		ctermbg=default
+highlight Link            cterm=none ctermfg=37 	ctermbg=default
+highlight BrokenLink      cterm=none ctermfg=160 	ctermbg=default
+highlight Socket          cterm=none ctermfg=136	ctermbg=230
+highlight Device          cterm=none ctermfg=244 	ctermbg=230
+highlight Fifo            cterm=none ctermfg=136	ctermbg=230
+highlight Executable      cterm=none ctermfg=40		ctermbg=default
+

@@ -1,0 +1,12 @@
+!---- XTERM CONFIGURATION ---------------
+XTerm*reverseVideo:     on
+XTerm*font:             7x14
+XTerm*termName:         xterm-256color
+XTerm*selectToClipboard: true
+
+
+!---- URXVT CONFIGURATION
+Urxvt*termName:         rxvt
+URxvt*font:             7x14
+URxvt.background:       #000000
+URxvt*foreground:       #cccccc
