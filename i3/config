@@ -158,6 +158,10 @@ bar {
         status_command i3status
 }
 
+# Remove Window Title but Keep border on 3 pixels
+new_window pixel 3
+new_float  pixel 3
+
 # always float application
 #for_window [class="doublecmd"] floating enable
 #for_window [class="Doublecmd"] floating enable
