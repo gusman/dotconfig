@@ -27,6 +27,9 @@ export VISUAL=vim
 # Export PATH
 export PATH=$HOME/.local/bin/:$JDK_HOME/bin:$ANT_HOME/bin:$MVN_HOME/bin:$PATH
 
+# Export Ranger config
+export RANGER_LOAD_DEFAULT_RC=FALSE
+
 # POWERLINE configuration
 if [ "$TERM" == "xterm-termite" ] || [ "$TERM" == "tmux" ]; then
     # DIRCOLORS
