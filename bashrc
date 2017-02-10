@@ -31,7 +31,7 @@ export PATH=$HOME/.local/bin/:$JDK_HOME/bin:$ANT_HOME/bin:$MVN_HOME/bin:$PATH
 export RANGER_LOAD_DEFAULT_RC=FALSE
 
 # POWERLINE configuration
-if [ "$TERM" == "xterm-termite" ] || [ "$TERM" == "tmux" ]; then
+if [ "$TERM" == "xterm-termite" ]; then
     # DIRCOLORS
     eval `dircolors ~/.dotconfig/dircolors/dircolors.256dark`
 
