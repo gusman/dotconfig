@@ -8,7 +8,6 @@
 # i3 config file (v4)
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
-
 set $mod Mod1
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -163,7 +162,14 @@ bar {
 new_window pixel 3
 new_float  pixel 3
 
-# always float application
+# Color setting
+# class                  border  backgr. text
+client.focused			 #b58900 #b58900 #000000
+#client.unfocused		 #444444 #282828 #c80000
+#client.focused_inactive #444444 #444444 #2c2c2f
+#client.urgent			 #383a3b #383a3b #ee0000
+
+# Always float application
 #for_window [class="doublecmd"] floating enable
 #for_window [class="Doublecmd"] floating enable
 #for_window [class="Zathura"] floating enable
@@ -171,7 +177,6 @@ new_float  pixel 3
 #for_window [class="mpv"] floating enable
 #for_window [class="xchm"] floating enable
 #for_window [class="Xchm"] floating enable
-
 
 # Thinkpad X220 specific audio
 bindsym XF86AudioMute exec ponymix toggle
@@ -197,4 +202,5 @@ bindsym XF86Battery exec slock
 exec --no-startup-id xset -b
 exec --no-startup-id compton -CGb --paint-on-overlay
 exec --no-startup-id synclient TouchpadOff=1
+exec --no-startup-id /usr/bin/parcellite
 exec --no-startup-id sh ~/.fehbg &
