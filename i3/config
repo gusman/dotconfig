@@ -200,7 +200,7 @@ bindsym XF86Battery exec slock
 
 # Startup executed application
 exec --no-startup-id xset -b
-exec --no-startup-id compton -CGb --paint-on-overlay
+#exec --no-startup-id compton -cCb
 exec --no-startup-id synclient TouchpadOff=1
 exec --no-startup-id /usr/bin/parcellite
 #exec --no-startup-id sh ~/.fehbg &
