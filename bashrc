@@ -20,12 +20,14 @@ export JDK_HOME=$HOME/Java/jdk1.8.0_51
 export ANT_HOME=$HOME/Java/apache-ant-1.9.6
 export MVN_HOME=$HOME/Java/apache-maven-3.3.9
 export JAVA_HOME=$JDK_HOME
+export ANDROID_STUDIO_HOME=$HOME/android/android-studio
+
 
 # Export VISUAL
 export VISUAL=vim
 
 # Export PATH
-export PATH=$HOME/.local/bin/:$JDK_HOME/bin:$ANT_HOME/bin:$MVN_HOME/bin:$PATH
+export PATH=$HOME/.local/bin/:$JDK_HOME/bin:$ANT_HOME/bin:$MVN_HOME/bin:$ANDROID_STUDIO_HOME/bin:$PATH
 
 # Export Ranger config
 export RANGER_LOAD_DEFAULT_RC=FALSE
