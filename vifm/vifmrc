@@ -62,7 +62,8 @@ set noiec
 " Selected color scheme
 
 if $TERM == 'xterm-termite'
-    colorscheme solarized-dark
+    "colorscheme solarized-dark
+    colorscheme juef-zenburn
 else
     colorscheme Default
 endif
