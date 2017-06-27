@@ -39,7 +39,7 @@ export RANGER_LOAD_DEFAULT_RC=FALSE
 
 if [ "$TERM" == "xterm-termite" ]; then
     # DIRCOLORS
-    eval `dircolors ~/.dotconfig/dircolors/dircolors.monokai`
+    eval `dircolors ~/.dotconfig/dircolors/dircolors.molokai`
 fi
 
 
