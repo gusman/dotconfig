@@ -38,6 +38,10 @@ export PATH=$HOME/.local/bin/:$JDK_HOME/bin:$ANT_HOME/bin:$MVN_HOME/bin:$PATH
 export RANGER_LOAD_DEFAULT_RC=FALSE
 
 if [ "$TERM" == "xterm-termite" ]; then
+    # VTE
+     . /etc/profile.d/vte.sh
+     __vte_prompt_command
+
     # DIRCOLORS
     eval `dircolors ~/.dotconfig/dircolors/dircolors.molokai`
 fi
