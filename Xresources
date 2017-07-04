@@ -10,3 +10,12 @@ Urxvt*termName:         rxvt
 URxvt*font:             7x14
 URxvt.background:       #000000
 URxvt*foreground:       #cccccc
+
+!---- FONT Render configuration
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
