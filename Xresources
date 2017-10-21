@@ -6,7 +6,7 @@ XTerm*selectToClipboard: true
 
 
 !---- URXVT CONFIGURATION
-Urxvt*termName:         rxvt
+URxvt*termName:         rxvt
 URxvt*font:             7x14
 URxvt.background:       #000000
 URxvt*foreground:       #cccccc
