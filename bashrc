@@ -47,3 +47,7 @@ if [ "$TERM" == "xterm-termite" ]; then
 fi
 
 
+if [ "$TERM" == "tmux-256color" ]; then
+    # DIRCOLORS
+    eval `dircolors ~/.dotconfig/dircolors/dircolors.molokai`
+fi

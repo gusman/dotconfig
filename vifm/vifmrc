@@ -61,7 +61,7 @@ set noiec
 
 " Selected color scheme
 
-if $TERM == 'xterm-termite'
+if $TERM == 'xterm-termite' || $TERM == 'screen-256color'
     "colorscheme solarized-dark
     colorscheme juef-zenburn
 else
