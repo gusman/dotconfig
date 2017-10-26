@@ -228,5 +228,5 @@ exec --no-startup-id compton -cCb
 exec --no-startup-id synclient TouchpadOff=1
 exec --no-startup-id /usr/bin/parcellite
 #exec --no-startup-id sh ~/.fehbg &
-#exec --no-startup-id nitrogen --restore
+exec --no-startup-id nitrogen --restore
 exec_always --no-startup-id monitor.sh
