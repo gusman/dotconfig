@@ -37,6 +37,10 @@ export PATH=$HOME/.local/bin/:$JDK_HOME/bin:$ANT_HOME/bin:$MVN_HOME/bin:$PATH
 # Export Ranger config
 export RANGER_LOAD_DEFAULT_RC=FALSE
 
+# Export locale
+export LC_ALL=en_US.utf-8
+export LANG="$LC_ALL"
+
 if [ "$TERM" == "xterm-termite" ]; then
     # VTE
      . /etc/profile.d/vte.sh
