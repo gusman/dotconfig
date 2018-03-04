@@ -211,6 +211,9 @@ bindsym XF86AudioRaiseVolume exec ponymix increase 5
 # Thinkpad X220 touchpad Fn
 bindsym XF86TouchpadToggle exec ~/.local/bin/touchpad.sh
 
+# Thinkpad X220 monitor key
+bindsym XF86Display exec ~/.local/bin/monitor.sh
+
 # Thinkpad X220 blue key
 #bindsym XF86Launch1 exec ponymix toggle
 
