@@ -34,9 +34,6 @@ fi
 [[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
 
 
-# set Terminal
-export TERMINAL=termite
-
 #twm &
 #xclock -geometry 50x50-1+1 &
 #xterm -geometry 80x50+494+51 &
@@ -49,6 +46,7 @@ xautolock -time 10 -locker "slock" -killtime 10 -killer "systemctl suspend" &
 #exec openbox-session
 
 # Execute i3
+export TERMINAL=xterm
 exec i3
 
 # Execute i3 with log

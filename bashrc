@@ -41,7 +41,8 @@ export RANGER_LOAD_DEFAULT_RC=FALSE
 export LC_ALL=en_US.utf-8
 export LANG="$LC_ALL"
 
-if [ "$TERM" == "xterm-termite" ]; then
+if [ "$TERM" == "xterm-termite" ]; 
+then
     # VTE
      . /etc/profile.d/vte.sh
      __vte_prompt_command
@@ -51,7 +52,8 @@ if [ "$TERM" == "xterm-termite" ]; then
 fi
 
 
-if [ "$TERM" == "tmux-256color" ]; then
+if [ "$TERM" == "tmux-256color" ] || [ "$TERM" == "xterm-256color" ]; 
+then
     # DIRCOLORS
     eval `dircolors ~/.dotconfig/dircolors/dircolors.molokai`
 fi
