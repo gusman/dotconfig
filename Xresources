@@ -1,7 +1,8 @@
 !---- XTERM CONFIGURATION --------------
-XTerm*reverseVideo:     on
+!XTerm*reverseVideo:     on
 !XTerm*font:             7x14
-XTerm*faceName:         xos4 Terminus:pixelsize=14
+!XTerm*faceName:         xos4 Terminus:pixelsize=14
+XTerm*faceName:         terminus:pixelsize=14
 XTerm*termName:         xterm-256color
 XTerm*selectToClipboard: true
 XTerm*borderWidth: 0

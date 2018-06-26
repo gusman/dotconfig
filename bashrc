@@ -25,6 +25,8 @@ export JAVA_HOME=$JDK_HOME
 export ANDROID_STUDIO_HOME=$HOME/android/android-studio
 export GOPATH=$HOME/go
 
+# QT5 Theme
+export QT_QPA_PLATFORMTHEME=gtk2
 
 # Export VISUAL
 export VISUAL=vim
@@ -52,7 +54,7 @@ then
 fi
 
 
-if [ "$TERM" == "tmux-256color" ] || [ "$TERM" == "xterm-256color" ]; 
+if [ "$TERM" == "screen-256color" ] || [ "$TERM" == "xterm-256color" ]; 
 then
     # DIRCOLORS
     eval `dircolors ~/.dotconfig/dircolors/dircolors.molokai`
